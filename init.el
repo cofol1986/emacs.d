@@ -79,14 +79,14 @@
 
 (require 'init-paredit)
 (require 'init-lisp)
-;;(require 'init-slime)
+(require 'init-slime)
 (require 'init-clojure)
 (require 'init-common-lisp)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
 
-;;(require 'init-marmalade)
+(require 'init-marmalade)
 (require 'init-misc)
 
 ;; Extra packages which don't require any configuration
