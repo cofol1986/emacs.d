@@ -1,0 +1,7 @@
+installation under ubuntu server:
+(1) apt-get build-dep emacs23
+(2) libnotify-bin:notify-send 
+(3) ./configure --prefix=/root/emacs/ 
+(4) make && make install
+(5) echo "alias emacs='/root/emacs/bin/emacs-24.3 --debug-init'" >> .bashrc
+(6) source .bashrc
